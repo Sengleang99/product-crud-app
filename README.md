@@ -50,7 +50,7 @@ Before running this Flutter app, make sure you have:
 
 ```bash
 git clone https://github.com/Sengleang99/product-crud-app.git
-cd product-crud-app/frontend
+cd product-crud-app
 
 
 ## 📦 Backend Setup
@@ -63,7 +63,8 @@ cd product-crud-app/frontend
 
 ```bash
 cd backend
-npm install
+npm install express
+init -y
 cp .env.example .env
 # Edit `.env` with your DB credentials
 node server.js
