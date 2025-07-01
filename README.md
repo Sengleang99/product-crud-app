@@ -1,6 +1,6 @@
 # Product CRUD App UI
 
-![Product UI] (https://raw.githubusercontent.com/Sengleang99/product-crud-app/e478bd94b52bb132694762dca6832d27e22080da/app%20crud%20app%20ui.png)
+![Image](https://github.com/user-attachments/assets/a6c88868-93ac-4465-ae06-086a4b11b622)
 
 # Product CRUD App
 
