@@ -4,11 +4,34 @@
 
 # Product CRUD App
 
-This repository contains a full-stack Product CRUD application with:
+![Product CRUD App](https://img.shields.io/badge/Flutter-3.19-blue?logo=flutter)
+![Node.js](https://img.shields.io/badge/Node.js-18.x-green?logo=node.js)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-orange?logo=mysql)
+
+A full-stack Product Management System with Flutter frontend, Node.js/Express backend, and MySQL database.
 
 - 📦 **Backend**: Node.js + Express
 - 📱 **Frontend**: Flutter App
 - 🗃️ **Database**: MySQL
+
+## Table of Contents
+- [Features](#-features)
+- [Project Structure](#-project-structure)
+- [Screenshots](#-screenshots)
+
+---
+
+## 🌟 Features
+- **Full CRUD Operations**:
+  - Create, Read, Update, and Delete products
+  - Product viewing
+- **Modern UI**:
+  - Responsive Flutter interface
+  - Clean and intuitive design
+- **State Management**:
+  - Provider pattern for efficient state handling
+- **RESTful API**:
+  - Proper error handling
 
 ---
 
@@ -16,7 +39,7 @@ This repository contains a full-stack Product CRUD application with:
 
 - `/backend`: RESTful API (Express)
 - `/frontend`: Flutter mobile application
-
+  
 ---
 
 # 📱 Flutter Frontend - Product CRUD App
@@ -24,78 +47,9 @@ This repository contains a full-stack Product CRUD application with:
 This is the mobile frontend for the Product CRUD application, built using **Flutter**.
 
 It connects to a RESTful API built with Node.js and Express.
-
-#### ⚙️ State Management
-
-This app uses **`Provider`** to manage and update product data throughout the app.
-
 ---
-
-## 🛠️ Prerequisites
-
-Before running this Flutter app, make sure you have:
-
-- ✅ [Flutter SDK](https://docs.flutter.dev/get-started/install)
-- ✅ Android Studio / Visual Studio Code
-- ✅ Emulator or Physical Android Device
-- ✅ The backend API running (see `/backend/README.md`)
-
----
-
-## 🚀 How to Run the App
- - flutter creare your_project_name
- - flutter run
-
 ### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/Sengleang99/product-crud-app.git
 cd product-crud-app
-
-
-## 📦 Backend Setup
-
-### Prerequisites
-- Node.js
-- MySQL
-
-### Steps
-
-```bash
-cd backend
-npm install express
-init -y
-cp .env.example .env
-# Edit `.env` with your DB credentials
-node server.js
-
-
-
----
-
-## 🚀 Features
-
-- Get all products ✅  
-- Get a product by ID ✅  
-- Create a new product ✅  
-- Update a product ✅  
-- Delete a product ✅
-
----
-
-## 🛠️ Requirements
-
-- [Node.js](https://nodejs.org/) (v16 or later)
-- [MySQL](https://www.mysql.com/)
-- [Postman](https://www.postman.com/) or similar tool for testing API (optional)
-
----
-
-## ⚙️ Setup Instructions
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/Sengleang99/product-crud-app.git
-cd product-crud-app/ App
-
