@@ -13,6 +13,7 @@ A full-stack Product Management System with Flutter frontend, Node.js/Express ba
 - 📦 **Backend**: Node.js + Express
 - 📱 **Frontend**: Flutter App
 - 🗃️ **Database**: MySQL
+- **API Format:** RESTful JSON API
 
 ## Table of Contents
 - [Features](#-features)
@@ -31,6 +32,7 @@ A full-stack Product Management System with Flutter frontend, Node.js/Express ba
 - **State Management**:
   - Provider pattern for efficient state handling
 - **RESTful API**:
+  - RESTful API integration
   - Proper error handling
 
 ---
@@ -40,6 +42,18 @@ A full-stack Product Management System with Flutter frontend, Node.js/Express ba
 - `/backend`: RESTful API (Express)
 - `/frontend`: Flutter mobile application
   
+---
+
+📄 API Endpoints
+
+| Method | Endpoint           | Description          |
+| ------ | ------------------ | -------------------- |
+| GET    | /api/products      | Get all products     |
+| POST   | /api/products      | Create a new product |
+| PUT    | /api/products/\:id | Update a product     |
+| DELETE | /api/products/\:id | Delete a product     |
+
+
 ---
 
 # 📱 Flutter Frontend - Product CRUD App
