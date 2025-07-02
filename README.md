@@ -25,10 +25,8 @@ A full-stack Product Management System with Flutter frontend, Node.js/Express ba
 ## 🌟 Features
 - **Full CRUD Operations**:
   - Create, Read, Update, and Delete products
-  - Product viewing
 - **Modern UI**:
   - Responsive Flutter interface
-  - Clean and intuitive design
 - **State Management**:
   - Provider pattern for efficient state handling
 - **RESTful API**:
